@@ -5,8 +5,6 @@ import NoteForm from "./assets/components/NoteForm.vue";
 
 <template>
   <div>
-    <h1>Notes</h1>
-
     <NoteForm />
     <NoteList />
   </div>
