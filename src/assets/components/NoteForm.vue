@@ -12,10 +12,10 @@ const createNote = () => {
   fetch("http://localhost:3000/notes/", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
-    body: JSON.stringify(),
+    body: JSON.stringify(newNote),
   })
     .then((res) => res.json())
-    .then((data) => console.log(data));
+    .then((data) => console.log());
   resetNote();
 };
 function refresh() {
